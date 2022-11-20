@@ -4,15 +4,15 @@ import './CustomCursorStyle.scss';
 const CustomCursor = () => {
   const cursorRef = useRef(null);
 
-  const positionRef = useRef({
-    mouseX: 0,
-    mouseY: 0,
-    destinationX: 0,
-    destinationY: 0,
-    distanceX: 0,
-    distanceY: 0,
-    key: -1,
-  });
+  // const positionRef = useRef({
+  //   mouseX: 0,
+  //   mouseY: 0,
+  //   destinationX: 0,
+  //   destinationY: 0,
+  //   distanceX: 0,
+  //   distanceY: 0,
+  //   key: -1,
+  // });
 
   useEffect(() => {
     document.addEventListener('mousemove', (event) => {
